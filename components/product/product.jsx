@@ -15,6 +15,7 @@ const Product = () => {
       <div className="flex gap-2 mt-10">
 
         <div className="relative">
+          <div className="absolute w-full h-full rounded-4xl bg-gray-900 opacity-0 hover:opacity-30" style={{ zIndex: 100000 }}></div>
           <img className="w-fit h-[380px] rounded-4xl" src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/fc435ee2-fabf-4f10-5a37-d89874f4bf00/f=auto,dpr=2,q=95,fit=scale-down,metadata=none" />
           <div className="absolute w-full bottom-5 flex items-center justify-between px-7">
             <div className="font-semibold text-xl">
@@ -28,6 +29,7 @@ const Product = () => {
         </div>
 
         <div className="relative">
+          <div className="absolute w-full h-full rounded-4xl bg-gray-900 opacity-0 hover:opacity-30" style={{ zIndex: 100000 }}></div>
           <img className="w-fit h-[380px] rounded-4xl" src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/0e6d3edd-cd37-4bf8-c1bf-b93960169400/f=auto,dpr=2,q=95,fit=scale-down,metadata=none" />
           <div className="absolute w-full bottom-5 flex items-center justify-between px-7">
             <div className="font-semibold text-xl">
@@ -41,6 +43,7 @@ const Product = () => {
         </div>
 
         <div className="relative">
+          <div className="absolute w-full h-full rounded-4xl bg-gray-900 opacity-0 hover:opacity-30" style={{ zIndex: 100000 }}></div>
           <img className="w-fit h-[380px] rounded-4xl" src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/99eeb9b8-3d99-4191-0081-9f302d26f400/f=auto,dpr=2,q=95,fit=scale-down,metadata=none" />
           <div className="absolute w-full bottom-5 flex items-center justify-between px-7">
             <div className="font-semibold text-xl">

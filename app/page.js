@@ -8,7 +8,9 @@ import { containersize } from "@/constants";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden " style={{
+
+    }}>
       <Marginer>
         <TopAppBar className={containersize} />
       </Marginer>
@@ -21,7 +23,7 @@ export default function Home() {
       <div className="mt-24 flex items-center justify-center">
         <Companies />
       </div>
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center  mt-10">
         <Product/>
       </div>
     </div>
