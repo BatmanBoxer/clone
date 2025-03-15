@@ -1,7 +1,9 @@
 const TopAppBar = () => {
   return (
-    <div className={`flex sticky top-0 z-100 justify-between items-center w-[1000px] p-5 cursor-default`} >
-      <div className="font-semibold text-md"><img src="wordmark-light.png" className="h-5" /></div>
+    <div className={`flex sticky  top-0 z-100 justify-between items-center w-[1000px] h-15 p-5 cursor-default`} >
+      <div className="font-semibold text-md p-5">
+        <img src="wordmark-light.png" className="h-5" />
+      </div>
       <div className="flex justify-around gap-5 text-gray-500 font-light text-sm">
         <div>Product</div>
         <div>Resource</div>

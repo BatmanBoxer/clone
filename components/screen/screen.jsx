@@ -36,7 +36,6 @@ const Screen = () => {
         <div
           className="absolute bottom-0 h-[1px] w-[1500px]"
           style={{
-            transform: "translateX(-200px)",
             background: "black",
             zIndex: 2000,
           }} />
